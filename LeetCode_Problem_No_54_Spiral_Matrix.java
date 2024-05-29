@@ -15,7 +15,8 @@ class Solution
         int down = row_size - 1;
 
         // We'll be traversing the border elements of each outer matrices in one iteration and in further iterations we'll do the same for each inner matrices
-        while( count < ( row_size * col_size ) )
+        
+        while( count < ( row_size * col_size ) )    // row_size * col_size will give the total number of elements in the matrix
         {
             // traverse from left to right
             for( int col = left; col <= right; col++ )
