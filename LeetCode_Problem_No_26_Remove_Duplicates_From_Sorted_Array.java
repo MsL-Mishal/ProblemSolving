@@ -13,7 +13,7 @@ class Solution
             int currentElement = nums[traversalPtr];
 
             // If we have a duplicate element, we won't update `k` value. We'll only update `traversalPtr` value.
-            // Else, we'll increment `k` and set current element as `prev` for the next iteration. We'll also update `traversalPtr` value.
+            // Else, we'll update `nums[k]` with `currentElement`, increment `k` and set current element as `prev` for the next iteration. We'll also update `traversalPtr` value.
           
             if( currentElement != prev )
             {
