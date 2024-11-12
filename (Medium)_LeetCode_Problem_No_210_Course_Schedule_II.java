@@ -1,3 +1,5 @@
+//Topological Sorting Approach
+
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         Map<Integer, List<Integer>> adj = new HashMap<>();
