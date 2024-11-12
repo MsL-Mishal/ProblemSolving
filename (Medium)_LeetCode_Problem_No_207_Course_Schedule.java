@@ -1,3 +1,5 @@
+//Topological Sorting
+
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         Map<Integer, List<Integer>> adj = new HashMap<>();
